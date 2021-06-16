@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <style>
+            html, body, .container, p, h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            html, body, .container {
+                background-color: #f2f2f7ff;
+            }
+
+            #headerImage {
+                width: 100%;
+                height: 250px;
+            }
+
+            #headerImage img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 0 0 25px 25px !important;
+            }
+
+            #headline {
+                padding: 15px 0 0 15px;
+                margin-bottom: 15px;;
+            }
+
+            #quickActions button {
+                flex: 1;
+                height: 70px;
+                border-radius: 12px;
+                
+            }
+
+            #quickActions button p {
+                font-size: 12px;
+                line-height: 13px;
+                background-color: transparent;
+                margin: 5px 0 0 0;
+            }
+
+            .bg-secondary {
+                background-color: #ffffffff !important;
+            }
+        </style>
+    </head>
+    <body>       
+        <div class="container d-sm-none">
+            <div id="headerImage">
+                <img src="https://www.acediscopartysounds.co.uk/wp-content/uploads/2016/10/about_us_image_1.jpg" class="shadow "/>
+            </div>
+            <div id="headline">
+                <h3 class="fw-bold">Icon Thursdays</h3>
+                <p class="text-secondary">hosted by XoKulture</p>
+            </div>
+
+            <div id="quickActions" class="d-flex w-100 px-3">
+                <button type="button" class="btn bg-secondary mx-2 shadow text-center">
+                    <i class="bi bi-calendar-plus-fill"></i><br><p>Store Date</p>
+                </button>
+                <button type="button" class="btn bg-secondary mx-2 shadow text-center">
+                    <i class="bi bi-share-fill"></i><br><p>Share Event</p>
+                </button>
+                <button type="button" class="btn btn-primary mx-2 shadow text-center">
+                    <i class="bi bi-bag-fill"></i><br><p>Buy Tickets</p>
+                </button>
+                <button type="button" class="btn btn-danger mx-2 shadow text-center">
+                    <i class="bi bi-megaphone-fill"></i><br><p>Report Event</p>
+                </button>
+            </div>
+
+            <div class="list-group m-3">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small>3 days ago</small>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  <small>Donec id elit non mi porta.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  <small class="text-muted">Donec id elit non mi porta.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  <small class="text-muted">Donec id elit non mi porta.</small>
+                </a>
+              </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
